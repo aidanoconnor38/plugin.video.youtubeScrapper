@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.youtubeScrapper"
+version="1.1.0"
+name="Youtube Playlist Scrapper"
+provider-name="Aidan O'Connor">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+  <import addon="plugin.video.youtube" version="5.3.5"/> 
+  <import addon="script.module.beautifulsoup4" version="4.3.2"/> 
+  <import addon="script.module.requests" version="2.12.4"/> </requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Youtube Channel</summary>
+  <description lang="en">Youtube Channel Description</description>
+  <disclaimer lang="en"></disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart> 
+  </assets>
+  <news>Updated with latest artwork metadata</news>
+</extension>
+</addon>
